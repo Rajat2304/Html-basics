@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- form khud ek container h
+     class is a attribute 
+     jb bhi koi elemnt bnao we need to make an id or class
+     <small clas is used that something is missing that is user define validation i.e. password wrong or email not wrriten 
+     id ="email" is also   used to uniquly identify that particular elemnt 
+     <without closing tags are called as inline tag
+     <label> passwor
+        type pass is use for *****
+     <type submit ,  button used for a postman to check in the server to check if the written credential is coorect or not
+        
+     
+     -->
+     <div class ="Login-card">
+        <h2> Login Form</h2>
+        <p id="succesMSG " class ="success"></p>
+        <form id ="loginFORM">
+
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Enter your Email">
+            <small class="error" id="emailError"></small>
+                <br>
+             <label>Password</label>
+            <input type="password" id="password" >
+            <small class="error" id="passwordError"></small>
+            <br><br>
+            <button type="submit"> Login </button>
+
+            
+        </form>
+     </div>
+</body>
+</html>
